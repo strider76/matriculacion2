@@ -1,7 +1,7 @@
 
 package rolegame;
 
-public class Troll {
+public class Enano {
     private String nombre;
     private int puntosVida;
     private int fuerzaAtaque;
@@ -10,9 +10,9 @@ public class Troll {
     private int puntosExperiencia;
     private boolean muerto;
 
-public Troll()
+public Enano()
 {
-    this.nombre="Troll";
+    this.nombre="";
     this.puntosVida=0;
     this.fuerzaAtaque=0;
     this.puntosDefensa=0;
@@ -20,5 +20,8 @@ public Troll()
     this.puntosExperiencia=0;
     this.muerto=false;  
 }
-    
+public Enano(String nombre)
+{
+    this.nombre=nombre;
+}
 }
