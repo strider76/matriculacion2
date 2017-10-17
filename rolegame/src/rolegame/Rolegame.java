@@ -15,7 +15,11 @@ public class Rolegame {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Creamos un objeto Troll
+        Troll trollDeLasCavernas = new Troll();
+        trollDeLasCavernas.setNombre("Maricuchili");
+        //Mostramos el objeto Troll en consola por el metodo toString
+        System.out.println("Informacion de objeto Troll: " + trollDeLasCavernas);
     }
     
 }
